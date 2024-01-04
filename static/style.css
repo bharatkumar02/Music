@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+section{
+    scroll-margin: 50px;
+}
+
+.sec-1{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #270082;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+ 
+nav{
+    padding: 1.5% 0;
+} 
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 9%;
+    color: white;
+}
+
+.div-2>ul{
+    display: flex;
+    gap: 20px;
+}
+
+.div-2>ul>a{
+    text-decoration: none;
+}
+
+.div-2>ul>a>li{
+    list-style: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+
+ul>a>li:hover{
+    border-bottom: 2px solid white;
+}
+
+.sec-2{
+    background-image: url(images/hero_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: white;
+}
+
+.div-3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 8%;
+}
+
+.div-3>h1{
+    font-size: 96px;
+}
+
+.div-3>h2{
+    font-size: 32px;
+}
+
+.sec-3{
+    background-color: #281154;
+    padding-top: 50px;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+.div-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin: 0 8%;
+}
+
+.div-4>h4{
+    text-align: left;
+}
+
+.div-4>button{
+    padding: 10px 15px;
+    color: white;
+    background-color: #dc0000;
+    border: none;
+    transition: 0.2s ease-in;
+}
+
+.div-4>button:hover{
+    opacity: 0.7;
+    transition: 0.2s ease-out;
+}
+
+.div-5{
+    position: relative;
+    top: 400px;
+    margin-top: -400px;
+    padding: 30px 0 0 0;
+}
+
+.sec-4{
+    margin-top: 35%;
+}
+
+ .div-6{
+    display: grid;
+    place-items: center;
+    text-align: center;
+} 
+
+.div-7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 8%;
+}
+
+.div-7>button{
+    padding: 10px 15px;
+    background-color: #270082;
+    border: none;
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+.div-7>button:hover{
+    opacity: 0.7;
+    transition: 0.2s ease-out;
+}
+
+.div-8{
+    margin: 3% 0;
+}
+
+.sec-5{
+    background-image: url(images/video.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-items: center; 
+    text-align: center;
+    color: white;
+}
+
+.div-9{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 0 10%;
+}
+
+.div-9>video{
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+.sec-6{
+    margin: 6% 0;
+    scroll-margin: 100px;
+}
+
+.div-10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 9%;
+}
+
+.div-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0 0 0 5%;
+}
+
+.div-12>button{
+    padding: 10px 15px;
+    background-color: #270082;
+    color: white;
+    transition: 0.2s ease-in;
+    border: none;
+}
+
+.div-13{
+    width: 100%;
+    border: 1px solid rgb(198, 191, 191);
+}
+
+.div-12>button:hover{
+    opacity: 0.7;
+    transition: 0.2s ease-out;
+}
+.div-14{
+    color: white;
+    background-color: #1b0058;
+    padding: 2% 0;
+}
+
+.div-15{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8%;
+}
+
+.div-16>h3, .div-17>h3, .div-18>h3, .div-19>h3{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.div-20{
+    background-color: #270082;
+    color: white;
+    display: grid;
+    place-items: center;
+    padding: 1.5% 0;
+}
+
+@media (max-width: 786px){
+    
+}
